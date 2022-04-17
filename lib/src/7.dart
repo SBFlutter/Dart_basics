@@ -1,10 +1,9 @@
 extension RootN on num{
 
   rootN(int n) {
-    if (n < 0) throw ArgumentError("n should be >0");
-    if (n > 32) throw ArgumentError("n shoud be >=32");
-    if (n == 0) return 1;
-    
+    if (n < 2) throw ArgumentError("n should be >2");
+    if (n > 32) throw ArgumentError("n shoud be <>>=32");
+
     var xk = this;
     var xk1 = this + 1;
     var tolerance = 0.000001;
