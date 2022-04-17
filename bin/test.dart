@@ -22,6 +22,6 @@ void main(List<String> args) {
   Point v = Point.one();
   print(v.distanceTo(Point.zero()));
 
-  print(rootN(16, 4));
+  print(437324533.00.rootN(32));
 
 }
